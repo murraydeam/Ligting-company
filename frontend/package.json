@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://{murraydeam}.github.io/{DevPortfolio}",
+  "homepage": "https://{murraydeam}.github.io/{SLM_ENTERTAINMENT}",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
