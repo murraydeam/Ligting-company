@@ -1,9 +1,10 @@
 import { Container } from "@mui/material";
-import { ThemeProvider } from '@mui/system';
-import Button from "@mui/material/Button";
+import { ThemeProvider } from "@mui/system";
+// import Button from "@mui/material/Button";
 import { useEffect } from "react";
-import theme from './styles/theme'
-import Appbar from './components/appbar';
+import theme from "./styles/theme";
+import Appbar from "./components/appbar";
+import Banner from "./components/banner";
 
 function App() {
   useEffect(() => {
@@ -20,8 +21,9 @@ function App() {
         }}
       >
         <Appbar />
+        <Banner />
         {/** 
-       * Appbar
+       * Appbar Created
        * Banner
        * Promotions
        * Title
