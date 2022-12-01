@@ -8,7 +8,7 @@ import Banner from "./components/banner";
 
 function App() {
   useEffect(() => {
-    document.title = "React Matrial UI - Home";
+    document.title = "La Camera - Home";
   }, []);
 
   return (

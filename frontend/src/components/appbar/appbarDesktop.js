@@ -15,7 +15,7 @@ export default function AppbarDesktop({ matches }) {
       
     <AppbarContainer>
       <AppbarHeader variant="h1">
-        My Bags
+        La Camera
       </AppbarHeader>
       <MyList type="row">
         <ListItemText primary="Home" />
