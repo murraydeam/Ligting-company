@@ -1,39 +1,24 @@
-import { Container } from "@mui/material";
-import { ThemeProvider } from "@mui/system";
-// import Button from "@mui/material/Button";
-import { useEffect } from "react";
-import theme from "./styles/theme";
-import Appbar from "./components/appbar";
-import Banner from "./components/banner";
-import Promotions from "./components/promotions";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-  useEffect(() => {
-    document.title = "La Camera - Home";
-  }, []);
-
   return (
-    <ThemeProvider theme={theme}>
-      <Container
-        className="App"
-        maxWidth="xl"
-        sx={{
-          background: "#fff",
-        }}
-      >
-        <Appbar />
-        <Banner />
-        <Promotions />
-        {/** 
-       * Title
-       * Products
-       * Footer
-        Hidden
-       * Searcbox
-       * AppDrawer
-       */}
-      </Container>
-    </ThemeProvider>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
 
